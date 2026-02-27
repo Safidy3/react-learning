@@ -6,12 +6,12 @@ import { RouterProvider } from "react-router-dom";
 // import Tutorial from "./tutorial";
 // import TicTacToe from "./TicTacToe";
 // import GamePlateform from "./frontEnd";
-import { router } from "./router"
+import Routes from "./route"
 
 function App() {
 	return (
 		<>
-			<RouterProvider router={router} />
+			<Routes />
 		</>
 	);
 }
